@@ -20,13 +20,8 @@ def InputFile(File):
 
 def f2(label):
     print(label)
-    print("1 -",Lista[0])
-    print("2 -",Lista[1])
-    print("3 -",Lista[2])
-    print("4 -",Lista[3])
-    print("5 -",Lista[4])
-    x = int(input("Kérek egy számot 1-5"))
- 
+    x = int(input("Kérek egy számot 1-5: "))
+    for i in range():
 
 
     
