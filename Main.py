@@ -1,3 +1,4 @@
+from PIL import Image
 Lista = []
 
 
@@ -6,7 +7,7 @@ Lista = []
 def f1(label):
     print(label)
     InputFile("Adat.txt")
-    print(Lista)
+    print("A program készen áll a felhasználói inputra")
 
 def InputFile(File):
     f= open(File, "r")
@@ -19,30 +20,45 @@ def InputFile(File):
 
 
 def f2(label):
-    print(label)
-    print("1 - ",Lista[0])
-    print("2 - ",Lista[1])
-    print("3 - ",Lista[2])
-    print("4 - ",Lista[3])
-    print("5 - ",Lista[4])
-    
-    x = int(input("Kérek egy számot 1-5: "))
-    if(x == 1):
-        print(Lista[0])
-    if(x == 2):
-        print(Lista[1])
-    if(x == 3):
-        print(Lista[2])
-
-    if(x == 4):
-        print(Lista[3])
-    if(x == 5):
-        print(Lista[4])
+    for i in range(5):
+        print(label)
+        print("1 - ",(listarendezes(Lista[0])))
+        print("2 - ",(listarendezes(Lista[1])))
+        print("3 - ",(listarendezes(Lista[2])))
+        print("4 - ",(listarendezes(Lista[3])))
+        print("5 - ",(listarendezes(Lista[4])))
         
-
+        x = int(input("Kérek egy számot 1-5: "))
+        if(x == 1):
+            print(listarendezes(Lista[0]))
+        #Megnyitja illetve a .show argumentummal megismutatja azt bármely képszerkesztőben
+            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\Hosoktere.jpeg")
+            O.show()
+            
+        if(x == 2):
+            print(listarendezes(Lista[1]))
+            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\NotreDame.jpg")
+            O.show()
+        if(x == 3):
+            
+            print(listarendezes(Lista[2]))
+            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\orszaghaz.jpg")
+            O.show()
+        if(x == 4):
+            print(listarendezes(Lista[3]))
+            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\Casino.jpg")
+            O.show()
+        if(x == 5):
+            print(listarendezes(Lista[4]))
+            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\Hungaroring.jpg")
+            O.show()
+        
+        
+def listarendezes(lista):
+    return '{}'.format(','.join(str(s) for s in lista))
 
     
 
 
-f1("Teszt")
-f2("IRASKEP")
+f1("POST")
+f2("FI1")
