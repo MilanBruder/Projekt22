@@ -20,6 +20,7 @@ def InputFile(File):
 
 
 def f2(label):
+<<<<<<< HEAD
     for i in range(5):
         print(label)
         print("1 - ",(listarendezes(Lista[0])))
@@ -56,6 +57,12 @@ def f2(label):
         
 def listarendezes(lista):
     return '{}'.format(','.join(str(s) for s in lista))
+=======
+    print(label)
+    x = int(input("Kérek egy számot 1-5: "))
+    for i in range():
+
+>>>>>>> dev
 
     
 
