@@ -33,30 +33,30 @@ def f2(label):
         if(x == 1):
             print(listarendezes(Lista[0]))
         #Megnyitja illetve a .show argumentummal meg is mutatja azt bármely képszerkesztőben
-            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\Hosoktere.jpeg")
+            O = Image.open(r"T:\Bruder Milán 10D\Projekt22\Hosoktere.jpeg")
             O.show()
             webbrowser.open('https://hu.wikipedia.org/wiki/H%C5%91s%C3%B6k_tere')
             
         if(x == 2):
             print(listarendezes(Lista[1]))
-            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\NotreDame.jpg")
+            O = Image.open(r"T:\Bruder Milán 10D\Projekt22\NotreDame.jpg")
             O.show()
             webbrowser.open('https://hu.wikipedia.org/wiki/H%C5%91s%C3%B6k_tere')
             
         if(x == 3):
             
             print(listarendezes(Lista[2]))
-            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\orszaghaz.jpg")
+            O = Image.open(r"T:\Bruder Milán 10D\Projekt22\orszaghaz.jpg")
             O.show()
             webbrowser.open('https://hu.wikipedia.org/wiki/Orsz%C3%A1gh%C3%A1z')
         if(x == 4):
             print(listarendezes(Lista[3]))
-            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\Casino.jpg")
+            O = Image.open(r"T:\Bruder Milán 10D\Projekt22\Casino.jpg")
             O.show()
             webbrowser.open('https://www.montecarlosbm.com/en/casino-monaco')
         if(x == 5):
             print(listarendezes(Lista[4]))
-            O = Image.open(r"C:\Users\lajha\Desktop\GIT\Projekt22\Hungaroring.jpg")
+            O = Image.open(r"T:\Bruder Milán 10D\Projekt22\Hungaroring.jpg")
             O.show()
             webbrowser.open('https://hungaroring.hu/')
         
