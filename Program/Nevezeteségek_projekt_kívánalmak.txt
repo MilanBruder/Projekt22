@@ -1,0 +1,16 @@
+Nevezetességek gyűjtése
+Python program elkezdése: fájlbeolvasás
+Menürendszer készítése:
+1.Nevezetességekből választani és információkat kiírni róla (a fájlban tárolt nevezetességek listája kikerül a képernyőre, az alapján tud választani a felhasználó)
+2.A felhasználótól bekért keletkezési idő alapján meghatározni, hogy milyen nevezetességek vannak, vagy esetleg nincs ilyen a fájlban
+3.A felhasználótól bekért országnév alapján meghatározni, hogy milyen nevezetességek vannak, vagy esetleg nincs ilyen a fájlban
+
+Fejlesztés:
+1.Kép keresése a fájlban lévő nevezetességekről.A fájl soraiba beírni a képfájlt nevét.
+2.Leírás készítése az adott nevezetességről egy fájlba. A leíró fájl nevét a nevezetességek fájlba beintegráljuk.
+
+Az 1. és 2. a kevés számú adatsor miatt történhet kézzel is.
+Fejlesztett forma: Az 1. és 2. feladat végrehajtására külön programot készítünk.
+
+Fejlesztés 3. A program a nevezetesség választó (1.) funkciójában mutassa meg a képet és írja ki a szövegfájl tartalmát a képernyőre, amelyek az adott nevezetességhez tartoznak.
+Fejlesztés 4. Önálló fejlesztési ötlete(ek), ha az idő engedi
