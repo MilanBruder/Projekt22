@@ -1,0 +1,4 @@
+malac;4;3
+farkas;4;5
+liba;2;3
+tyúk;2;1
