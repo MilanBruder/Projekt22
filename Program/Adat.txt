@@ -1,5 +1,5 @@
-Budapest;hõsök tere
-Párizs; Notre Dame
-Budapest;Országház
-Monaco;Casino
-Mogyoród; Hungaroring
+Budapest;hõsök tere;Magyarország
+Párizs;Notre Dame;Franciaország
+Budapest;Országház;Magyarország
+Monaco;Casino;Monaco
+Mogyoród;Hungaroring;Magyarország
