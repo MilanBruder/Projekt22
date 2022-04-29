@@ -20,6 +20,14 @@ def f1(label):
         
             print(Lista[i].rekordkép())
 
+        if (Lista[i].Hely == Y):
+            print(Lista[i].rekordkép())
+
+        if (Lista[i].Város == Y):
+            print(Lista[i].rekordkép())
+
+
+
 def InputFile(File):
     f= open(File, "r")
     for sor in f:
@@ -84,4 +92,4 @@ def f2(label):
 
 
 f1("POST")
-#f2("FI1")
+f2("FI1")
